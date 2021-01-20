@@ -8,7 +8,6 @@ O layout foi desenvolvido com base nas aulas do Ricardo Sales, através de seu c
 Para fazer o deploy, foi utilizado o [Vercel](https://vercel.com/) em conjunto com o Github, deixando a atualizando do conteúdo muito mais rápida e prática. sendo possível
 de ser compartilhado facilmente.
 
-Aqui você confere o resultado!
-[Site Exemplo](https://siteexemplo-3w9ko77kv.vercel.app/)
+[Aqui você confere o resultado!](https://siteexemplo-3w9ko77kv.vercel.app/)
 
 ###_Sugestões são sempre bem vidas!_
