@@ -1,7 +1,7 @@
 # Exemplo de layout
 
 Este layout foi desenvolvido utilizando HTML e CSS e o framework Bootstrap. Foi utilizado o NodeJs para instalação das depenências do Bootstrap 
-e Sass para compilação do arquivos CSS.
+e Sass para compilação dos arquivos CSS.
 
 O layout foi desenvolvido com base nas aulas do Ricardo Sales, através de seu canal no Youtube: [Playlist YouTube](https://www.youtube.com/playlist?list=PLBbHLUbqqCrT1gBZtTminYijo8DVpPynE)
 
