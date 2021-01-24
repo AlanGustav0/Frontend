@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+</head>
+
+<body>
+    
+
+    <div class="container">
+        <div class="row">
+        
+          <div class="col-12 text-center my-5">
+          
+            <h1 class="display-4">Formulário de Inscrição</h1>
+            <h4 class="my-2">Região de Interesse: Central</h4>
+            <h4 class="my-2">Cargo: Operador de Teleatendimento Jr.</h4>
+          </div>
+        
+        </div>
+
+        <div class="row justify-content-center mb-5">
+        
+          <div class="col-sm-12 col-md-10 col-lg-8">
+              <form>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="h4">Dados pessoais</p>
+                  </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-12">
+
+                        <label for="inputNome">Nome</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="Digite seu nome" required>
+
+                    </div>
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group col-sm-12">
+
+                        <label for="inputEndereco">Endereço</label>
+                        <input type="text" class="form-control" id="inputEndereco" placeholder="Digite seu endereço" required>
+
+                    </div>
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group col-sm-6">
+
+                        <label for="inputCid">Digite sua Cidade</label>
+                        <input type="text" class="form-control" id="inputCid" placeholder="Cidade" required>
+
+                    </div>
+                
+
+                    <div class="form-group col-sm-3">
+
+                    <label for="inputEst">Digite seu Estado</label>
+                        <select id="inputEst" class="form-control">
+                        <option selected>Escolha...</option>
+                            <option>...</option>
+                            <option>...</option>
+                            <option>...</option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-group col-sm-3">
+                    <label for="inputCep">Digite seu CEP</label>
+                    <input type="text" class="form-control" id="inputCep" placeholder="Cep ">
+                    
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmail">E-mail</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu E-mail " required>
+                    
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-sm-3">
+                        <label for="inputTel">Telefone</label>
+                        <input type="phone2numeric" class="form-control" id="inputTel" placeholder="Digite seu Telefone " >
+                    
+                    </div>
+
+                    <div class="form-group col-sm-3">
+                        <label for="inputCel">Celular:</label>
+                        <input type="phone2numeric" class="form-control" id="inputCel" placeholder="Digite seu Celular " required>
+                    
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputReg">Conselho Profissional de Registro:</label>
+                        <input type="numeric" class="form-control" id="inputReg" placeholder="Digite (CRM/COREN)">
+                    
+                    </div>
+
+                </div>
+        
+
+                
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="h4">1. Escolaridade</p>
+                  </div>
+                </div>
+
+                
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="ensinoMedio">
+                    <label class="form-check-label" for="ensinoMedio">
+                      Ensino Médio
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="superiorIncomp">
+                    <label class="form-check-label" for="superiorIncomp">
+                      Ensino Superior em andamento
+                    </label>
+                  </div>
+
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="superiorComp">
+                    <label class="form-check-label" for="superiorComp">
+                      Ensino Superior completo
+                    </label>
+                  </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputCurso">Curso</label>
+                        <input type="text" class="form-control" id="inputCurso" placeholder="Digite seu curso">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputInst">Instituição</label>
+                        <input type="text" class="form-control" id="inputInst" placeholder="Digite a instituição de ensino">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-4">
+                        <label for="inputDataC">Data de conclusão</label>
+                        <input type="date" class="form-control" id="inputDataC">
+                    
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="h4">2. Especialização/MBA, Mestrado e Doutorado</p>
+                  </div>
+                </div>
+
+                
+                <div class="row">
+
+
+                  <div class="form-check ml-4">
+                    <input class="form-check-input" type="checkbox" value="" id="especializacao">
+                    <label class="form-check-label" for="especializacao">
+                      Especialização/MBA
+                    </label>
+                  </div>
+
+                  <div class="form-check ml-4">
+                    <input class="form-check-input" type="checkbox" value="" id="mestrado">
+                    <label class="form-check-label" for="mestrado">
+                      Mestrado
+                    </label>
+                  </div>
+
+                  <div class="form-check ml-4">
+                    <input class="form-check-input" type="checkbox" value="" id="doutorado">
+                    <label class="form-check-label" for="doutorado">
+                      Doutorado
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputCurso">Curso</label>
+                        <input type="text" class="form-control" id="inputCurso" placeholder="Digite o curso">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputInst">Instituição</label>
+                        <input type="text" class="form-control" id="inputInst" placeholder="Digite a instituição de ensino">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputDataConclusao">Data de conclusão</label>
+                        <input type="date" class="form-control" id="inputDataConclusao">
+                    
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputInst">Carga horária</label>
+                        <input type="numeric" class="form-control" id="inputInst" placeholder="Digite a carga horária">
+                    
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="h4">3. Cursos ou Treinamentos relacionados com a área</p>
+                  </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputCurso">Curso</label>
+                        <input type="text" class="form-control" id="inputCurso" placeholder="Digite o curso">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputInst">Instituição</label>
+                        <input type="text" class="form-control" id="inputInst" placeholder="Digite a instituição de ensino">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputCargaHoraria">Carga Horária</label>
+                        <input type="numeric" class="form-control" id="inputCargaHoraria" placeholder="Digite a carga horária">
+                    
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputInst">Ano de Realização</label>
+                        <input type="numeric" class="form-control" id="inputInst" placeholder="Digite o ano de realização">
+                    
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="h4">4. Experiência Profissional</p>
+                  </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmpresa">Empresa</label>
+                        <input type="text" class="form-control" id="inputEmpresa" placeholder="Digite o nome da empresa">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputCargo">Cargo</label>
+                        <input type="text" class="form-control" id="inputCargo" placeholder="Digite o cargo">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputAdm">Admissão</label>
+                        <input type="text" class="form-control" id="inputAdm" placeholder="Digite a data de asmissão">
+                    
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputSaida">Saída</label>
+                        <input type="text" class="form-control" id="inputSaida" placeholder="Digite a data de saída">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                  <div class="form-group col-sm-12">
+                      <label for="inputAdm">Principais responsabilidade</label>
+                      <textarea type="text" class="form-control" id="inputAdm" rows="4">
+                      </textarea>
+                    
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmpresa">Empresa</label>
+                        <input type="text" class="form-control" id="inputEmpresa" placeholder="Digite o nome da empresa">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputCargo">Cargo</label>
+                        <input type="text" class="form-control" id="inputCargo" placeholder="Digite o cargo">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputAdm">Admissão</label>
+                        <input type="text" class="form-control" id="inputAdm" placeholder="Digite a data de asmissão">
+                    
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputSaida">Saída</label>
+                        <input type="text" class="form-control" id="inputSaida" placeholder="Digite a data de saída">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                  <div class="form-group col-sm-12">
+                      <label for="inputAdm">Principais responsabilidade</label>
+                      <textarea type="text" class="form-control" id="inputAdm" rows="4" placeholder="Digite aqui as atividades desenvolvidas...">
+                      </textarea>
+                    
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEmpresa">Empresa</label>
+                        <input type="text" class="form-control" id="inputEmpresa" placeholder="Digite o nome da empresa">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputCargo">Cargo</label>
+                        <input type="text" class="form-control" id="inputCargo" placeholder="Digite o cargo">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputAdm">Admissão</label>
+                        <input type="text" class="form-control" id="inputAdm" placeholder="Digite a data de asmissão">
+                    
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputSaida">Saída</label>
+                        <input type="text" class="form-control" id="inputSaida" placeholder="Digite a data de saída">
+                    
+                    </div>
+                </div>
+
+                <div class="row my-3">
+
+                  <div class="form-group col-sm-12">
+                      <label for="inputAdm">Principais responsabilidade</label>
+                      <textarea type="text" class="form-control" id="inputAdm" rows="4" placeholder="Digite aqui as atividades desenvolvidas...">
+                      </textarea>
+                    
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="h4">5. Informações adicionais</p>
+                  </div>
+                </div>
+
+                <div class="row align-items-center">
+
+                    <div class="form-text col-sm-6">
+                        <label for="inputCargo">Idioma</label>
+                        <input type="text" class="form-control" id="inputCargo" placeholder="Digite o idioma">
+                    
+                    </div>
+
+                    <div class="col-auto">
+
+                      
+                      <div class="row mt-4">
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="fala">
+                          <label class="form-check-label" for="fala">
+                            Fala
+                          </label>
+                        </div>
+                        
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="leitura">
+                          <label class="form-check-label" for="leitura">
+                            Lê
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="escrita">
+                          <label class="form-check-label" for="escrita">
+                            Escreve
+                          </label>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+
+                <div class="row my-3 align-items-center">
+
+                    <div class="form-text col-sm-6">
+                        <label for="inputCargo">Idioma</label>
+                        <input type="text" class="form-control" id="inputCargo" placeholder="Digite o idioma">
+                    
+                    </div>
+
+                    <div class="col-auto">
+
+                      
+                      <div class="row mt-4">
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="fala">
+                          <label class="form-check-label" for="fala">
+                            Fala
+                          </label>
+                        </div>
+                        
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="leitura">
+                          <label class="form-check-label" for="leitura">
+                            Lê
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="escrita">
+                          <label class="form-check-label" for="escrita">
+                            Escreve
+                          </label>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+
+                <div class="row my-3 align-items-center">
+
+                    <div class="form-text col-sm-6">
+                        <label for="inputCargo">Idioma</label>
+                        <input type="text" class="form-control" id="inputCargo" placeholder="Digite o idioma">
+                    
+                    </div>
+
+                    <div class="col-auto">
+
+                      
+                      <div class="row mt-4">
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="fala">
+                          <label class="form-check-label" for="fala">
+                            Fala
+                          </label>
+                        </div>
+                        
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="leitura">
+                          <label class="form-check-label" for="leitura">
+                            Lê
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="escrita">
+                          <label class="form-check-label" for="escrita">
+                            Escreve
+                          </label>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="h5">Informática</p>
+                  </div>
+                </div>
+
+                <div class="row my-3">
+                  <div class="col-sm-1">
+                    <p class="h6">Word</p>
+                  </div>
+
+                  <div class="col-sm-11">
+                    <div class="row">    
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="basicoWord">
+                          <label class="form-check-label" for="basicoWord">
+                            Básico
+                          </label>
+                        </div>
+                        
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="interWord">
+                          <label class="form-check-label" for="interWord">
+                            Intermediário
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="avWord">
+                          <label class="form-check-label" for="avWord">
+                            Avançado
+                          </label>
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="row my-3">
+                  <div class="col-sm-1">
+                    <p class="h6">Excel</p>
+                  </div>
+
+                  <div class="col-sm-11">
+                    <div class="row">    
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="basicoExcel">
+                          <label class="form-check-label" for="basicoExcel">
+                            Básico
+                          </label>
+                        </div>
+                        
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="interExcel">
+                          <label class="form-check-label" for="interExcel">
+                            Intermediário
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="avExcel">
+                          <label class="form-check-label" for="avExcel">
+                            Avançado
+                          </label>
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="row my-3">
+                  <div class="col-sm-1">
+                    <p class="h6">Access</p>
+                  </div>
+
+                  <div class="col-sm-11">
+                    <div class="row">    
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="basicoAcess">
+                          <label class="form-check-label" for="basicoAcess">
+                            Básico
+                          </label>
+                        </div>
+                        
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="leitura">
+                          <label class="form-check-label" for="leitura">
+                            Intermediário
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="avAccess">
+                          <label class="form-check-label" for="avAccess">
+                            Avançado
+                          </label>
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="row my-3">
+                  <div class="col-sm-2">
+                    <p class="h6">Power Point</p>
+                  </div>
+
+                  <div class="col-sm-10">
+                    <div class="row">    
+                        <div class="form-check ml-2">
+                          <input class="form-check-input" type="checkbox" value="" id="basicoPower">
+                          <label class="form-check-label" for="basicoPower">
+                            Básico
+                          </label>
+                        </div>
+                        
+
+                        <div class="form-check ml-2">
+                          <input class="form-check-input" type="checkbox" value="" id="interPower">
+                          <label class="form-check-label" for="interPower">
+                            Intermediário
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-2">
+                          <input class="form-check-input" type="checkbox" value="" id="avPower">
+                          <label class="form-check-label" for="avPower">
+                            Avançado
+                          </label>
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="row my-3">
+                  <div class="col-sm-1">
+                    <p class="h6">Outlook</p>
+                </div>
+
+                  <div class="col-sm-11">
+                    <div class="row">    
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="basicoOut">
+                          <label class="form-check-label" for="basicoOut">
+                            Básico
+                          </label>
+                        </div>
+                        
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="leitura">
+                          <label class="form-check-label" for="leitura">
+                            Intermediário
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="avOut">
+                          <label class="form-check-label" for="avOut">
+                            Avançado
+                          </label>
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="row my-3">
+                  <div class="col-sm-1">
+                    <p class="h6">Internet</p>
+                  </div>
+
+                  <div class="col-sm-11">
+                    <div class="row">    
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="basicoInternet">
+                          <label class="form-check-label" for="basicoInternet">
+                            Básico
+                          </label>
+                        </div>
+                        
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="interInternet">
+                          <label class="form-check-label" for="interInternet">
+                            Intermediário
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="avInternet">
+                          <label class="form-check-label" for="avInternet">
+                            Avançado
+                          </label>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="form-text col-sm-6">
+                        <label for="inputOutros">Outros</label>
+                        <input type="text" class="form-control" id="inputOutros" placeholder="Digite outros conhecimentos">
+                    
+                    </div>
+                  
+                </div>
+
+                <hr>
+
+                <div class="row">
+                  <div class="row my-3">
+                    <div class="col-sm-12">
+                      <p class="h6">Possui alguma deficiência? Em caso afirmativo, de qual tipo?</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+
+                  <div class="col-sm-12">
+                    <div class="row">    
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="fisica">
+                          <label class="form-check-label" for="fisica">
+                            Física
+                          </label>
+                        </div>
+                            
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="auditiva">
+                          <label class="form-check-label" for="auditiva">
+                            Auditiva
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="visual">
+                          <label class="form-check-label" for="visual">
+                            Visual
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="mental">
+                          <label class="form-check-label" for="mental">
+                            Mental
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="multipla">
+                          <label class="form-check-label" for="multipla">
+                            Múltipla
+                          </label>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="row my-3">
+                    <div class="col-sm-12">
+                      <p class="h6">De que forma teve conhecimento da oportunidade?</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12">
+                     
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="siteCassi">
+                          <label class="form-check-label" for="siteCassi">
+                            Site da Cassi
+                          </label>
+                        </div>
+                            
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="anuncio">
+                          <label class="form-check-label" for="anuncio">
+                            Anúncio jornal
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="siteConsult">
+                          <label class="form-check-label" for="siteConsult">
+                            Site de Consultoria
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="indicAmigo">
+                          <label class="form-check-label" for="indicAmigo">
+                            Indicação de amigo
+                          </label>
+                        </div>
+
+                        <div class="form-check ml-4">
+                          <input class="form-check-input" type="checkbox" value="" id="colabCassi">
+                          <label class="form-check-label" for="colabCassi">
+                            Indicação de colaborador Cassi
+                          </label>
+                        </div>
+
+                        <div class="form-text ml-4">
+                          <label for="inputOutrosIndicacao">Outros</label>
+                        <input type="text" class="form-control" id="inputOutrosIndicacao" placeholder="Digite como ficou sabendo?">
+                        </div>
+                    
+                  </div>
+
+                  <div class="row my-3">
+
+                  <div class="form-group col-sm-12">
+                      <label for="inputAdcionais">Informações adicionais</label>
+                      <textarea type="text" class="form-control" id="inputAdcionais" rows="4">
+                      </textarea>
+                    
+                  </div>
+                </div>
+
+                
+
+                
+
+    
+                <div class="form-row my-2">
+
+                  <div class="form-group col-sm-12">
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox">Declaro que li e aceito estou de acordo com a <a href="politica.html" target="_blank">Política de Privacidade da Cassi.</a>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary my-2">Enviar</button>
+                  </div>
+                </div>
+            
+            </form>
+          </div>
+
+
+    </div>
+                  
+                
+                
+
+                
+
+              
+
+              
+        
+        </div>
+ 
+        
+        
+</body>
+</html>
+
+
