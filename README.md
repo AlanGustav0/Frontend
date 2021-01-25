@@ -15,10 +15,10 @@ de ser compartilhado facilmente.
 
 O formulário exemplo também foi criado utilizando HTML, CSS e Bootstrap apenas realizando a download dos arquivos através do [Site.](https://getbootstrap.com/docs/5.0/getting-started/download/)
 Foram utilizados os seguintes conceitos:
-### • Justes de linhas e colunas
-### • Utilização de form-groups
-### • input e input files
-### • Botões
+##### • Justes de linhas e colunas
+##### • Utilização de form-groups
+##### • input e input files
+##### • Botões
 
 [Confira o resultado!](https://forminscricao.vercel.app/)
 
