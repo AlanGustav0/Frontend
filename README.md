@@ -11,7 +11,7 @@ de ser compartilhado facilmente.
 
 ---
 
-# Fomulário exemplo
+# Formulário exemplo
 
 O formulário exemplo também foi criado utilizando HTML, CSS e Bootstrap apenas realizando a download dos arquivos através do [Site.](https://getbootstrap.com/docs/5.0/getting-started/download/)
 Foram utilizados os seguintes conceitos:
