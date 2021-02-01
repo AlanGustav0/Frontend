@@ -1,7 +1,6 @@
 # Exemplo de layout
 
-Este layout foi desenvolvido utilizando HTML e CSS e o framework Bootstrap. Foi utilizado o NodeJs para instalação das depenências do Bootstrap 
-e Sass para compilação dos arquivos CSS.
+O layout "site_exemplo" foi desenvolvido utilizando HTML e CSS e o framework Bootstrap, utilizando a instalação Source Files.
 
 O layout foi desenvolvido com base nas aulas do Ricardo Sales, através de seu canal no Youtube: [Playlist YouTube](https://www.youtube.com/playlist?list=PLBbHLUbqqCrT1gBZtTminYijo8DVpPynE)
 
@@ -9,5 +8,20 @@ Para fazer o deploy, foi utilizado o [Vercel](https://vercel.com/) em conjunto c
 de ser compartilhado facilmente.
 
 [Aqui você confere o resultado!](https://sitebootstrap.vercel.app/)
+
+---
+
+# Formulário exemplo
+
+O formulário exemplo também foi criado utilizando HTML, CSS e Bootstrap apenas realizando a download dos arquivos através do [Site.](https://getbootstrap.com/docs/5.0/getting-started/download/)
+Foram utilizados os seguintes conceitos:
+##### • Linhas e colunas (row / col)
+##### • Formulários (form-groups)
+##### • Inserção de conteúdo (input e input files)
+##### • Botões (button e classes btn)
+
+[Confira o resultado!](https://forminscricao.vercel.app/)
+
+
 
 _Sugestões são sempre bem vidas!_
